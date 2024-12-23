@@ -1,0 +1,88 @@
+.form-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-point {
+  color: #fff;
+  width: 365px;
+}
+
+.form-point .point-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.point-header-title {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.point-header-subtitle {
+  font-size: 13px;
+  color: #CFCFCF;
+}
+
+.point-header-group {
+  text-align: end;
+}
+
+.point-body {
+  text-align: start;
+  margin-top: 20px;
+}
+
+.point-body .point-body-content-title {
+  font-size: 23.2px;
+  font-weight: 700;
+}
+
+.point-body .point-body-content-subtitle {
+  font-weight: 700;
+  font-size: 11.6px;
+}
+
+.point-last {
+  overflow-y: scroll;
+  overflow-x: hidden !important;
+  max-height: 295px;
+}
+.point-last::-webkit-scrollbar {
+  border-radius: 14px;
+  width: 4px;
+  height: 7px;
+}
+.point-last::-webkit-scrollbar-track-piece {
+  border-radius: 10px;
+  margin: 9px;
+}
+.point-last::-webkit-scrollbar-thumb:vertical {
+  height: 5px;
+  background-color: #cfcfcf ;
+  border-radius: 10px;
+}
+
+.point-last-title {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.point-last-content {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f2834;
+  padding: 15px 19px;
+  border-radius: 8px;
+}
+
+.point-last-content span.point-last-content-day {
+  color: #b3b4b6;
+  font-size: 14px;
+}
+
+.point-last-content span.point-last-content-hour {
+  font-weight: 600;
+  font-size: 13px;
+}

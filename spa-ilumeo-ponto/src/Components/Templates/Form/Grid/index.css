@@ -1,0 +1,34 @@
+.col__3 {
+  width: 23%;
+}
+
+.col__4 {
+  width: 31.5%;
+}
+
+.col__6 {
+  width: 49%;
+}
+
+.col__8 {
+  width: 69%;
+}
+
+.col__9 {
+  width: 79%;
+}
+
+.col__12 {
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .col__3,
+  .col__4,
+  .col__6,
+  .col__8,
+  .col__9,
+  .col__12 {
+    width: 100%;
+  }
+}

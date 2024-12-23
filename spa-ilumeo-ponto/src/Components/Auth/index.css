@@ -1,0 +1,22 @@
+.form-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-auth {
+  width: 365px;
+}
+
+.form-auth .form-auth--title {
+  font-weight: 100 !important;
+  color: #cfcfcf;
+}
+
+.form-auth .form-auth--title b {
+  word-spacing: 1px;
+  transform: scaleX(1.2);
+  display: inline-block;
+  margin-left: 9px;
+}
